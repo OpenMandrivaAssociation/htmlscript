@@ -21,7 +21,7 @@ It is used by oma-welcome and oma-control-center.
 
 %prep
 %setup -q
-%apply_patches
+%autopatch -p1
 
 %build
 %cmake_qt5 -G Ninja
